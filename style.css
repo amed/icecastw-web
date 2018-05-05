@@ -44,7 +44,7 @@ h3 {
 
 h1#header{
 	padding: 10px 0px 10px 80px;
-	background: transparent url(/icecast.png) no-repeat scroll left center;
+	background: transparent url(/canfm.png) no-repeat scroll left center;
 }
 
 h3 small {
@@ -271,4 +271,3 @@ ul.nav li a:hover {
 	}
 
 }
-

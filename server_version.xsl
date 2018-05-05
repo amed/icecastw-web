@@ -3,7 +3,7 @@
 <xsl:template match = "/icestats">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-	<title>Icecast Streaming Media Server</title>
+	<title>CANFM Streaming Media Server</title>
 	<link rel="stylesheet" type="text/css" href="style.css" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
 </head>
@@ -41,31 +41,11 @@
 					<td><xsl:value-of select="server_id" /></td>
 				</tr>
 				</xsl:for-each>
-				<tr>
-					<td>Download</td>
-					<td><a href="http://icecast.org/download.php">icecast.org</a></td>
-				</tr>
-				<tr>
-					<td>Subversion</td>
-					<td><a href="http://icecast.org/svn.php">icecast.org/svn.php</a></td>
-				</tr>
-				<tr>
-					<td>Documentation</td>
-					<td><a href="http://icecast.org/docs.php">icecast.org/docs.php</a></td>
-				</tr>
-				<tr>
-					<td>Stream Directory</td>
-					<td><a href="http://dir.xiph.org/index.php">dir.xiph.org</a></td>
-				</tr>
-				<tr>
-					<td>Community</td>
-					<td><a href="http://icecast.org/community.php">icecast.org/community.php</a></td>
-				</tr>
 			</tbody>
 		</table>
 	</div>
 	<div id="footer">
-		Support icecast development at <a href="http://www.icecast.org">www.icecast.org</a>
+		Supported by <a href="http://xbyte.team">XByte.team</a>
 	</div>
 </body>
 </html>
